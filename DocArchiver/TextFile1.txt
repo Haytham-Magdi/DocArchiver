@@ -1,0 +1,25 @@
+﻿; 
+
+declare @Sel_ID int
+
+  Set @Sel_ID = 1  
+
+delete from Documents_Sel  where Sel_ID = @Sel_ID  
+
+
+insert into Documents_Sel  (Document_ID, Sel_ID)  
+
+select distinct CoreFile_ID, @Sel_ID
+from
+(
+SELECT     TOP (100) PERCENT dbo.CoreFiles.CoreFile_ID, dbo.CoreFiles.Size, dbo.Documents.NofPages, dbo.Documents.ImportanceDegree_Num, dbo.CoreFiles.IsMissing, 
+                       dbo.Documents.IsCorrupted, dbo.Documents.IsInspected, dbo.Documents.DocumentTopic_ID, dbo.FileAdding_CompleteFiles.Name AS OrgFileName,
+                         dbo.FileAdding_Sessions.SessionDate AS AddingDate, dbo.FileAdding_CompleteFiles.DateModified AS OrgFile_DateModified,   
+                      dbo.FileAdding_Folders.FullName AS OrgFolderName  FROM  
+       dbo.CoreFiles INNER JOIN     
+                   dbo.FileAdding_CompleteFiles ON dbo.CoreFiles.CoreFile_ID = dbo.FileAdding_CompleteFiles.CoreFile_ID INNER JOIN     
+                   dbo.FileAdding_Folders ON dbo.FileAdding_CompleteFiles.Folder_ID = dbo.FileAdding_Folders.Folder_ID INNER JOIN    
+                    dbo.Documents ON dbo.CoreFiles.CoreFile_ID = dbo.Documents.Document_ID INNER JOIN      
+                  dbo.FileAdding_Sessions ON dbo.FileAdding_CompleteFiles.Session_ID = dbo.FileAdding_Sessions.Session_ID 
+) as t1
+

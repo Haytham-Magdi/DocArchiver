@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DocArchiverDBModel2.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="DocArchiverDBModel2StoreContainer">
+          <EntitySet Name="Vw_SimpleDocumentsView" EntityType="DocArchiverDBModel2.Store.Vw_SimpleDocumentsView" store:Type="Views" store:Schema="dbo" store:Name="Vw_SimpleDocumentsView">
+            <DefiningQuery>SELECT 
+      [Vw_SimpleDocumentsView].[CoreFile_ID] AS [CoreFile_ID], 
+      [Vw_SimpleDocumentsView].[Size] AS [Size], 
+      [Vw_SimpleDocumentsView].[NofPages] AS [NofPages], 
+      [Vw_SimpleDocumentsView].[ImportanceDegree_Num] AS [ImportanceDegree_Num], 
+      [Vw_SimpleDocumentsView].[IsMissing] AS [IsMissing], 
+      [Vw_SimpleDocumentsView].[IsCorrupted] AS [IsCorrupted], 
+      [Vw_SimpleDocumentsView].[IsInspected] AS [IsInspected]
+      FROM [dbo].[Vw_SimpleDocumentsView] AS [Vw_SimpleDocumentsView]
+    </DefiningQuery>
+            
+          </EntitySet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'DocArchiverDB.dbo.Vw_SimpleDocumentsView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Vw_SimpleDocumentsView">
+          <Key>
+            <PropertyRef Name="CoreFile_ID" />
+          </Key>
+          <Property Name="CoreFile_ID" Type="int" Nullable="false" />
+          <Property Name="Size" Type="bigint" Nullable="false" />
+          <Property Name="NofPages" Type="int" Nullable="false" />
+          <Property Name="ImportanceDegree_Num" Type="int" Nullable="false" />
+          <Property Name="IsMissing" Type="bit" Nullable="false" />
+          <Property Name="IsCorrupted" Type="bit" Nullable="false" />
+          <Property Name="IsInspected" Type="bit" Nullable="false" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model_ManagingDocuments" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="Ents_ManagingDocuments" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Vw_SimpleDocumentsView" EntityType="Model_ManagingDocuments.Vw_SimpleDocumentsView" />
+        </EntityContainer>
+        <EntityType Name="Vw_SimpleDocumentsView">
+          <Key>
+            <PropertyRef Name="CoreFile_ID" />
+          </Key>
+          <Property Name="CoreFile_ID" Type="Int32" Nullable="false" />
+          <Property Name="Size" Type="Int64" Nullable="false" />
+          <Property Type="Int32" Name="NofPages" Nullable="false" />
+          <Property Type="Int32" Name="ImportanceDegree_Num" Nullable="false" />
+          <Property Type="Boolean" Name="IsMissing" Nullable="false" />
+          <Property Type="Boolean" Name="IsCorrupted" Nullable="false" />
+          <Property Type="Boolean" Name="IsInspected" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DocArchiverDBModel2StoreContainer" CdmEntityContainer="Ents_ManagingDocuments">
+          <EntitySetMapping Name="Vw_SimpleDocumentsView"><EntityTypeMapping TypeName="Model_ManagingDocuments.Vw_SimpleDocumentsView"><MappingFragment StoreEntitySet="Vw_SimpleDocumentsView">
+            <ScalarProperty Name="IsInspected" ColumnName="IsInspected" />
+                <ScalarProperty Name="IsCorrupted" ColumnName="IsCorrupted" />
+                <ScalarProperty Name="IsMissing" ColumnName="IsMissing" />
+                <ScalarProperty Name="ImportanceDegree_Num" ColumnName="ImportanceDegree_Num" />
+                <ScalarProperty Name="NofPages" ColumnName="NofPages" />
+                <ScalarProperty Name="CoreFile_ID" ColumnName="CoreFile_ID" />
+            <ScalarProperty Name="Size" ColumnName="Size" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model_ManagingDocuments">
+        <EntityTypeShape EntityType="Model_ManagingDocuments.Vw_SimpleDocumentsView" Width="2.375" PointX="0.75" PointY="0.75" Height="1.4233821614583335" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

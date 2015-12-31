@@ -1,0 +1,55 @@
+﻿
+
+
+        public void InsertCandidateFiles()
+        {
+            AddingFiles.Data.DsAddingFiles.CandidateFilesDataTable t1 = 
+                new Data.DsAddingFiles.CandidateFilesDataTable();
+
+
+            foreach (FileElm fe in FileElm_List)
+            {
+                AddingFiles.Data.DsAddingFiles.CandidateFilesRow dr =
+                    t1.NewCandidateFilesRow();
+
+                FillCandidateFileRow(dr, fe);
+
+                t1.Rows.Add(dr);
+            }
+            t1.AcceptChanges();
+
+
+            string concString = DataHelper.GetConnectionString();
+
+            SqlConnection conc = new SqlConnection(concString);
+
+            try
+            {
+                conc.Open();
+
+
+                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(conc))
+                {
+                    bulkCopy.DestinationTableName =
+                        "dbo.CandidateFiles";
+
+                    try
+                    {
+                        bulkCopy.WriteToServer(t1);
+                    }
+                    catch (Exception exp)
+                    {
+                        throw exp;
+                    }
+                }
+
+            }
+            finally
+            {
+                conc.Close();
+            }
+
+
+
+
+        }

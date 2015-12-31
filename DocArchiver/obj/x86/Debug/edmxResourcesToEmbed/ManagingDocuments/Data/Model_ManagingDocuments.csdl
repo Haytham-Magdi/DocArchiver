@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model_ManagingDocuments" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Ents_ManagingDocuments" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="Vw_SimpleDocumentsView" EntityType="Model_ManagingDocuments.Vw_SimpleDocumentsView" />
+  </EntityContainer>
+  <EntityType Name="Vw_SimpleDocumentsView">
+    <Key>
+      <PropertyRef Name="CoreFile_ID" />
+    </Key>
+    <Property Name="CoreFile_ID" Type="Int32" Nullable="false" />
+    <Property Name="Size" Type="Int64" Nullable="false" />
+    <Property Type="Int32" Name="NofPages" Nullable="false" />
+    <Property Type="Int32" Name="ImportanceDegree_Num" Nullable="false" />
+    <Property Type="Boolean" Name="IsMissing" Nullable="false" />
+    <Property Type="Boolean" Name="IsCorrupted" Nullable="false" />
+    <Property Type="Boolean" Name="IsInspected" Nullable="false" />
+  </EntityType>
+</Schema>

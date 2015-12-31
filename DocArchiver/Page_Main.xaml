@@ -1,0 +1,23 @@
+﻿<Page x:Class="DocArchiver.Page_Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="900"
+       Width="900" Height="750"
+	Title="Document Archiver - Main">
+
+    <Grid>
+        <Button Content="Add Files" Height="51" HorizontalAlignment="Left" Margin="34,54,0,0" Name="btnAddFiles" VerticalAlignment="Top" Width="167" SnapsToDevicePixels="False" Click="btnAddFiles_Click" />
+        <Button Content="Try 1" Height="51" HorizontalAlignment="Left" Margin="34,164,0,0" Name="btnTry1" VerticalAlignment="Top" Width="167" Click="btnTry1_Click" />
+        <Button Content="Try 2" Height="51" HorizontalAlignment="Left" Margin="242,164,0,0" Name="btnTry2" VerticalAlignment="Top" Width="167" Click="btnTry2_Click" />
+        <Button Content="Exit" Height="51" HorizontalAlignment="Left" Margin="459,164,0,0" Name="btnExit" VerticalAlignment="Top" Width="167" Click="btnExit_Click" />
+        <Button Content="Try AssFileType" Height="33" HorizontalAlignment="Left" Margin="34,256,0,0" Name="btnTry_AssFileType" VerticalAlignment="Top" Width="99" Click="btnTry_AssFileType_Click" />
+        <Button Content="Try BackupMgr" Height="33" HorizontalAlignment="Left" Margin="34,307,0,0" Name="btnTryBackupMgr" VerticalAlignment="Top" Width="99" Click="btnTryBackupMgr_Click" />
+        <Button Content="Try Sql Batch Mgr" Height="51" HorizontalAlignment="Left" Margin="242,256,0,0" Name="btnTrySqlBatchMgr" VerticalAlignment="Top" Width="167" Click="btnTrySqlBatchMgr_Click" />
+        <Button Content="Fix Problem 10Feb12" Height="51" HorizontalAlignment="Left" Margin="459,256,0,0" Name="btnFixProblem_10Feb12" VerticalAlignment="Top" Width="167" Click="btnFixProblem_10Feb12_Click" />
+        <Button Content="Rename Restored Bads" Height="33" HorizontalAlignment="Left" Margin="34,362,0,0" Name="btnRenameRestoredBads" VerticalAlignment="Top" Width="139" Click="btnRenameRestoredBads_Click" />
+        <Button Content="Manage Documens" Height="51" HorizontalAlignment="Left" Margin="242,54,0,0" Name="btnManageDocumens" SnapsToDevicePixels="False" VerticalAlignment="Top" Width="167" Click="btnManageDocumens_Click" />
+    </Grid>
+</Page>

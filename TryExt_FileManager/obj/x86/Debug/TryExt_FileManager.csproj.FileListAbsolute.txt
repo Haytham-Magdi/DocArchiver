@@ -1,0 +1,28 @@
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\MainWindow.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\MainWindow.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager_MarkupCompile.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.g.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.Properties.Resources.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\MainWindow.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\MainWindow.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager_MarkupCompile.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.g.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.Properties.Resources.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.csproj.GenerateResource.Cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\bin\Debug\TryExt_FileManager.exe.config
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\bin\Debug\EntityFramework.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\bin\Debug\EntityFramework.xml
+E:\HthmWork\Projects\VS-2010\DocArchiver\TryExt_FileManager\obj\x86\Debug\TryExt_FileManager.csprojResolveAssemblyReference.cache

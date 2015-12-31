@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DocArchiverDBModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DocArchiverDBModel1StoreContainer">
+          <EntitySet Name="DiskFiles" EntityType="DocArchiverDBModel1.Store.DiskFiles" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="DiskFolders" EntityType="DocArchiverDBModel1.Store.DiskFolders" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+        </EntityContainer>
+        <EntityType Name="DiskFiles">
+          <Key>
+            <PropertyRef Name="File_ID" />
+          </Key>
+          <Property Name="File_ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Org_FolderPath" Type="nvarchar" Nullable="false" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="DiskFolders">
+          <Key>
+            <PropertyRef Name="DiskFolder_ID" />
+          </Key>
+          <Property Name="DiskFolder_ID" Type="int" Nullable="false" />
+          <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="300" />
+          <Property Name="IsValid" Type="bit" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DocArchiverDBModel1" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DocArchiverDBEntities1" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+          <EntitySet Name="DiskFiles" EntityType="DocArchiverDBModel1.DiskFile" />
+          <EntitySet Name="DiskFolders" EntityType="DocArchiverDBModel1.DiskFolder" />
+        </EntityContainer>
+        <EntityType Name="DiskFile">
+          <Key>
+            <PropertyRef Name="File_ID" />
+          </Key>
+          <Property Name="File_ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Org_FolderPath" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="DiskFolder">
+          <Key>
+            <PropertyRef Name="DiskFolder_ID" />
+          </Key>
+          <Property Name="DiskFolder_ID" Type="Int32" Nullable="false" />
+          <Property Name="Path" Type="String" Nullable="false" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="IsValid" Type="Boolean" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DocArchiverDBModel1StoreContainer" CdmEntityContainer="DocArchiverDBEntities1">
+          <EntitySetMapping Name="DiskFiles"><EntityTypeMapping TypeName="DocArchiverDBModel1.DiskFile"><MappingFragment StoreEntitySet="DiskFiles">
+            <ScalarProperty Name="File_ID" ColumnName="File_ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Org_FolderPath" ColumnName="Org_FolderPath" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="DiskFolders"><EntityTypeMapping TypeName="DocArchiverDBModel1.DiskFolder"><MappingFragment StoreEntitySet="DiskFolders">
+            <ScalarProperty Name="DiskFolder_ID" ColumnName="DiskFolder_ID" />
+            <ScalarProperty Name="Path" ColumnName="Path" />
+            <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="DocArchiverDBModel1.DiskFile" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DocArchiverDBModel1.DiskFolder" Width="1.5" PointX="2.75" PointY="0.75" Height="1.5956835937499996" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

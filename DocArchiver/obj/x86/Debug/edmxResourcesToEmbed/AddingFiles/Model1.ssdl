@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DocArchiverDBModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DocArchiverDBModel1StoreContainer">
+    <EntitySet Name="DiskFiles" EntityType="DocArchiverDBModel1.Store.DiskFiles" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="DiskFolders" EntityType="DocArchiverDBModel1.Store.DiskFolders" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+  </EntityContainer>
+  <EntityType Name="DiskFiles">
+    <Key>
+      <PropertyRef Name="File_ID" />
+    </Key>
+    <Property Name="File_ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Org_FolderPath" Type="nvarchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="DiskFolders">
+    <Key>
+      <PropertyRef Name="DiskFolder_ID" />
+    </Key>
+    <Property Name="DiskFolder_ID" Type="int" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="IsValid" Type="bit" Nullable="false" />
+  </EntityType>
+</Schema>

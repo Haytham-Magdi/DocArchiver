@@ -1,0 +1,28 @@
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\bin\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\bin\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader_MarkupCompile.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.g.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.Properties.Resources.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocMarkReader\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.csprojResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader_MarkupCompile.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.g.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.Properties.Resources.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.csproj.GenerateResource.Cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\obj\x86\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\DocMarkReader.exe.config
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\EntityFramework.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocMarkReader\bin\Debug\EntityFramework.xml

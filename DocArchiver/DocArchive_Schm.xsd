@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DocArchive_Schm"
+    targetNamespace="http://tempuri.org/DocArchive_Schm.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DocArchive_Schm.xsd"
+    xmlns:mstns="http://tempuri.org/DocArchive_Schm.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+
+
+
+  <xs:complexType name="SrcFolder_Type" >
+    <xs:sequence>
+      <xs:element type="xs:string" name="Path" minOccurs="1"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SrcFolderColl_Type">
+    <xs:sequence>
+      <xs:element name="SrcFolder" type="SrcFolder_Type" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+
+  <xs:complexType name="File_Type" >
+    <xs:sequence>
+      <xs:element type="xs:string" name="Name" minOccurs="1"></xs:element>
+      <xs:element type="xs:long" name="Size" minOccurs="1"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FileColl_Type">
+    <xs:sequence>
+      <xs:element name="File" type="File_Type" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="DocArchive_Type" >
+    
+    <xs:sequence>
+      <xs:element name="SrcFolderColl" type="SrcFolderColl_Type" minOccurs="1"></xs:element>
+      <xs:element name="FileColl" type="FileColl_Type" minOccurs="1"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:element name="DocArchive" type="DocArchive_Type"></xs:element>
+
+
+</xs:schema>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DocArchive version="1">
+
+  <FolderColl>
+
+    <Folder>
+      <Name></Name>
+      <Path>E:\HthmWork\Papers\Papers-10Dec11</Path>
+      <Comment></Comment>
+      <Inner_Folders>
+
+      </Inner_Folders>
+      <Inner_Files>
+
+      </Inner_Files>
+    </Folder>
+
+  </FolderColl>
+
+  <Prototypes>
+
+    <Folder>
+      <Name></Name>
+      <Path></Path>
+      <Comment></Comment>
+      <Inner_Folders>
+
+      </Inner_Folders>
+      <Inner_Files>
+
+      </Inner_Files>
+    </Folder>
+
+    <File>
+      <Name></Name>
+      <Size></Size>
+      <Comment></Comment>
+    </File>
+
+  </Prototypes>
+
+</DocArchive>
+

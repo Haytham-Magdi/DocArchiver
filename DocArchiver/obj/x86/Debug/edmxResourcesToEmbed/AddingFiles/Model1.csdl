@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DocArchiverDBModel1" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DocArchiverDBEntities1" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="DiskFiles" EntityType="DocArchiverDBModel1.DiskFile" />
+    <EntitySet Name="DiskFolders" EntityType="DocArchiverDBModel1.DiskFolder" />
+  </EntityContainer>
+  <EntityType Name="DiskFile">
+    <Key>
+      <PropertyRef Name="File_ID" />
+    </Key>
+    <Property Name="File_ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Org_FolderPath" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="DiskFolder">
+    <Key>
+      <PropertyRef Name="DiskFolder_ID" />
+    </Key>
+    <Property Name="DiskFolder_ID" Type="Int32" Nullable="false" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="300" Unicode="true" FixedLength="false" />
+    <Property Name="IsValid" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

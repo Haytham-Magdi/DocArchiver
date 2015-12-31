@@ -1,0 +1,110 @@
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ViewingResults.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_SettingPaths.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ConfirmingPaths.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ManagingFiles.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Page_Main.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\MainWindow_2.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\MainWindow.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\MainWindow_3.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ViewingResults.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_SettingPaths.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ConfirmingPaths.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ManagingFiles.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Page_Main.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\MainWindow_2.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\MainWindow.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\MainWindow_3.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\Window1.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver_MarkupCompile.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver_MarkupCompile.lref
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.exe.config
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\itextsharp.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\itextsharp.xtra.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Expression.Prototyping.Runtime.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.design.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\System.Windows.Interactivity.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\System.Windows.Interactivity.xml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\de\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\en\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\es\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\fr\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\it\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ja\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ko\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Runtime.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\Old\Window1.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.g.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.Properties.Resources.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\FileAssociation.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\bin\Debug\FileAssociation.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView_2.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView_2.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.exe.config
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\DocArchiver.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\FileAssociation.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\itextsharp.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\itextsharp.xtra.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\FileAssociation.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ViewingResults.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_SettingPaths.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ConfirmingPaths.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ManagingFiles.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\Page_Main.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\MainWindow_3.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ViewingResults.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_SettingPaths.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ConfirmingPaths.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\AddingFiles\Page_AddingFiles_ManagingFiles.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\Page_Main.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\MainWindow_3.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver_MarkupCompile.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver_MarkupCompile.lref
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\ManagingDocuments\Page_SimpleView.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.g.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.Properties.Resources.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.csprojResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\obj\x86\Debug\DocArchiver.csproj.GenerateResource.Cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\EntityFramework.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\DocArchiver\bin\Debug\EntityFramework.xml

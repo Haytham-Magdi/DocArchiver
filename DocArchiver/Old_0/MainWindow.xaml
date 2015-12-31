@@ -1,0 +1,60 @@
+﻿<Window x:Class="DocArchiver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="506" Width="920">
+    <Grid>
+        <Button Height="29" HorizontalAlignment="Left" Margin="21,21,0,0" Name="btnQueryFolder" VerticalAlignment="Top" Width="84" Content="Query Folder" Click="btnQueryFolder_Click" />
+        <Grid Height="369" HorizontalAlignment="Right" Margin="0,86,443,0" Name="grid1" VerticalAlignment="Top" Width="212" Background="{x:Null}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="62*" />
+                <ColumnDefinition Width="52*" />
+                <ColumnDefinition Width="98*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="243*" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <!--<DataGrid AutoGenerateColumns="False" Height="369" HorizontalAlignment="Left" Margin="298,86,0,0" Name="dgFiles" VerticalAlignment="Top" Width="302" DataContext="{Binding}">-->
+        <DataGrid AutoGenerateColumns="False" Height="369" HorizontalAlignment="Left" Margin="298,86,0,0" Name="dgFiles" VerticalAlignment="Top" Width="302">
+
+
+            <DataGrid.DataContext>
+                <XmlDataProvider 
+        Source="Data\xdoc.xml"
+        XPath="//FolderColl//File"
+           
+        />
+            </DataGrid.DataContext>
+
+
+
+            <DataGrid.Columns>
+
+
+                    <!--<DataGridTextColumn Header="Artist" Binding="{Binding Path=Element[artist_name].Value}"/>
+                <DataGridTextColumn Header="Album" Binding="{Binding Path=Element[album_name].Value}"/>
+                <DataGridTextColumn Header="Length" Binding="{Binding Path=Element[duration].Value}"/>-->
+
+                <DataGridTemplateColumn Header="Name_0" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+
+                        <DataTemplate DataType="File">
+
+                            <TextBlock Text="hhhh" />
+
+                        </DataTemplate>
+                        
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTextColumn Header="Name" Width="100" Binding="{Binding Path=./Name}" />
+                <DataGridTextColumn Header="Size" Width="100" Binding="{Binding Path=./Size}" />
+
+
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+            
+    </Grid>
+</Window>

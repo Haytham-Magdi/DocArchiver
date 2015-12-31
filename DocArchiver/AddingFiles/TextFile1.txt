@@ -1,0 +1,35 @@
+﻿
+
+;
+
+ INSERT INTO DocArchiverDB.dbo.CandidateFiles  
+ 
+ (CandidateFile_ID ,Session_ID, CoreFile_ID,  Name ,Folder_ID ,
+ 
+ UniqueNum_1, UniqueNum_2,  UniqueNum_3, UniqueNum_4, DateModified, 
+ 
+  Size, FileAdding_Status_ID, StatusMsg,  MovingAction_ID) 
+  
+   VALUES  
+   
+   (1 ,1, NULL,  'viewcontent.pdf' ,1 ,
+   
+   8843483177049048429, 12103790054096259241,  8684185678243080465, 18190278629125571801, 
+   
+   '12/26/2011 10:41:27 PM',  920391, 2, '',  0) \r\n; 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+ 
+ 
+ INSERT INTO DocArchiverDB.dbo.CandidateFiles  (CandidateFile_ID ,Session_ID, CoreFile_ID,  Name ,Folder_ID ,UniqueNum_1, UniqueNum_2,  UniqueNum_3, UniqueNum_4, DateModified,  Size, FileAdding_Status_ID, StatusMsg,  MovingAction_ID)  VALUES  (2 ,1, NULL,  'Xu-crv-08.pdf' ,1 ,12288481143933030266, 2890939142957909757,  4420007382303125124, 1567679415641411205, '12/26/2011 10:48:20 PM',  946999, 2, '',  0) \r\n"

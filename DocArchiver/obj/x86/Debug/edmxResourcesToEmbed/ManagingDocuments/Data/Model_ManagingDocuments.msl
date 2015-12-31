@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DocArchiverDBModel2StoreContainer" CdmEntityContainer="Ents_ManagingDocuments">
+    <EntitySetMapping Name="Vw_SimpleDocumentsView">
+      <EntityTypeMapping TypeName="Model_ManagingDocuments.Vw_SimpleDocumentsView">
+        <MappingFragment StoreEntitySet="Vw_SimpleDocumentsView">
+          <ScalarProperty Name="IsInspected" ColumnName="IsInspected" />
+          <ScalarProperty Name="IsCorrupted" ColumnName="IsCorrupted" />
+          <ScalarProperty Name="IsMissing" ColumnName="IsMissing" />
+          <ScalarProperty Name="ImportanceDegree_Num" ColumnName="ImportanceDegree_Num" />
+          <ScalarProperty Name="NofPages" ColumnName="NofPages" />
+          <ScalarProperty Name="CoreFile_ID" ColumnName="CoreFile_ID" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

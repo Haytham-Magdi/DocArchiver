@@ -1,0 +1,40 @@
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\Configure.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\Configure.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\FileAssociation.dll
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\bin\Debug\FileAssociation.pdb
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\MainWindow.baml
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\MainWindow.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\Configure_MarkupCompile.cache
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\Configure.g.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\Configure.Properties.Resources.resources
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\Configure.exe
+E:\HthmWork\Projects\VS 2010\DocArchiver\Configure\obj\x86\Debug\Configure.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\Configure.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\Configure.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\DocMarkReader.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\FileAssociation.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\TryExt_FileManager.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\DocMarkReader.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\TryExt_FileManager.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\FileAssociation.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.csprojResolveAssemblyReference.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\MainWindow.baml
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\MainWindow.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\App.g.cs
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure_MarkupCompile.cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.g.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.Properties.Resources.resources
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.csproj.GenerateResource.Cache
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.exe
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\obj\x86\Debug\Configure.pdb
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\Configure.exe.config
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\EntityFramework.dll
+E:\HthmWork\Projects\VS-2010\DocArchiver\Configure\bin\Debug\EntityFramework.xml

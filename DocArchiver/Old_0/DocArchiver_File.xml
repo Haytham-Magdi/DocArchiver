@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DataEntity xmlns="file:///E:/HthmWork/Lib/Wpf_Silverlight/DataEntity.xsd">
+
+  
+
+  <SrcFolderColl>
+    <SrcFolder>
+      <Path>E:\HthmWork\Papers\Papers-10Dec11</Path>
+    </SrcFolder>
+  </SrcFolderColl>
+  
+  <FileColl>
+
+
+  </FileColl>
+</DataEntity>
+

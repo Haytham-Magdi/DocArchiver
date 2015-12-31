@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocArchive version="1">
+  <FolderColl>
+    <Folder>
+      <Name />
+      <Path>E:\HthmWork\Papers\Papers-10Dec11</Path>
+      <Comment />
+      <Inner_Folders>
+        <Folder>
+          <Name>Folder_1</Name>
+          <Path>E:\HthmWork\Papers\Papers-10Dec11\Folder_1</Path>
+          <Comment />
+          <Inner_Folders />
+          <Inner_Files>
+            <File>
+              <Name>12.pdf</Name>
+              <Size>225794</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>14498596.2010.pdf</Name>
+              <Size>1373118</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>814356.pdf</Name>
+              <Size>72516</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>96.pdf</Name>
+              <Size>182650</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>cec09_slide_shirakawa.pdf</Name>
+              <Size>489377</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>ilea_pr_2011.pdf</Name>
+              <Size>2849592</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>JohnsonXie_ISPRS_2011.pdf</Name>
+              <Size>1601851</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>MultivariateImageSegmn%20-%20Qin%20and%20Clausi%20-%20IEEE%20IP%20-%20Aug%202010.pdf</Name>
+              <Size>2554901</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>RR-7212.pdf</Name>
+              <Size>1762953</Size>
+              <Comment />
+            </File>
+            <File>
+              <Name>TIP%20_Published.pdf</Name>
+              <Size>1796122</Size>
+              <Comment />
+            </File>
+          </Inner_Files>
+        </Folder>
+        <Folder>
+          <Name>Folder_2</Name>
+          <Path>E:\HthmWork\Papers\Papers-10Dec11\Folder_2</Path>
+          <Comment />
+          <Inner_Folders>
+            <Folder>
+              <Name>Folder_21</Name>
+              <Path>E:\HthmWork\Papers\Papers-10Dec11\Folder_2\Folder_21</Path>
+              <Comment />
+              <Inner_Folders />
+              <Inner_Files />
+            </Folder>
+          </Inner_Folders>
+          <Inner_Files />
+        </Folder>
+      </Inner_Folders>
+      <Inner_Files>
+        <File>
+          <Name>sde625-paper.pdf</Name>
+          <Size>165151</Size>
+          <Comment />
+        </File>
+      </Inner_Files>
+    </Folder>
+  </FolderColl>
+  <Prototypes>
+    <Folder>
+      <Name />
+      <Path />
+      <Comment />
+      <Inner_Folders />
+      <Inner_Files />
+    </Folder>
+    <File>
+      <Name />
+      <Size />
+      <Comment />
+    </File>
+  </Prototypes>
+</DocArchive>

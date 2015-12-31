@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DocArchiverDBModelStoreContainer" CdmEntityContainer="DocArchiverDBEntities">
+    <EntitySetMapping Name="DiskFolders">
+      <EntityTypeMapping TypeName="DocArchiverDBModel.DiskFolder">
+        <MappingFragment StoreEntitySet="DiskFolders">
+          <ScalarProperty Name="DiskFolder_ID" ColumnName="DiskFolder_ID" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

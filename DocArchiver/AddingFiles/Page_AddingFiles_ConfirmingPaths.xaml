@@ -1,0 +1,30 @@
+﻿<Page x:Class="DocArchiver.AddingFiles.Page_ConfirmingPaths"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="900"
+       Width="900" Height="750"
+	Title="Document Archiver - Adding Files - Confirming Paths" Loaded="Page_Loaded">
+
+    <Grid>
+        <Button Content="Next" Height="39" HorizontalAlignment="Right" Margin="0,623,37,0" Name="btnNext" VerticalAlignment="Top" Width="89" SnapsToDevicePixels="False" Click="btnNext_Click" />
+        <Button Content="Previous" Height="39" HorizontalAlignment="Right" Margin="0,623,153,0" Name="btnPrevious" SnapsToDevicePixels="False" VerticalAlignment="Top" Width="89" Click="btnPrevious_Click" />
+        <Button Content="Cancel" Height="39" HorizontalAlignment="Left" Margin="41,623,0,0" Name="btnCancel" SnapsToDevicePixels="False" VerticalAlignment="Top" Width="89" Click="btnCancel_Click" />
+        
+        <DataGrid AutoGenerateColumns="False" Height="539" HorizontalAlignment="Left" Margin="41,44,0,0" Name="dgFolders" VerticalAlignment="Top" Width="822" CanUserDeleteRows="False" CanUserAddRows="False">
+            <DataGrid.Columns>                
+                <DataGridTextColumn Binding="{Binding Path=Path}" Header="Path"
+                     IsReadOnly="True"
+                                      />
+                <DataGridCheckBoxColumn Header="Include Subfolders" Binding="{Binding                               Path=IncludeSubFolders}" IsReadOnly="True" />
+
+                <DataGridTextColumn Binding="{Binding Path=Status}" Header="Status"
+                            IsReadOnly="True"/>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

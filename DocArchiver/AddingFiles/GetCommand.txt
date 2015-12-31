@@ -1,0 +1,29 @@
+﻿
+
+                StartFile_ID = new global::System.Nullable<int>(((int)(command.Parameters[2].Value)));
+            }
+            return returnValue;
+        }
+
+
+        public System.Data.SqlClient.SqlCommand GetCommand(string a_cmdText)
+        {
+            System.Data.SqlClient.SqlCommand cmd1 = null;
+
+
+            int nCmdIndex = 0;
+            for (; nCmdIndex < this.CommandCollection.Length; nCmdIndex++)
+            {
+                if (CommandCollection[nCmdIndex].CommandText == "dbo." + a_cmdText)
+                {
+                    cmd1 = (System.Data.SqlClient.SqlCommand)
+                        CommandCollection[nCmdIndex];
+                    break;
+                }
+            }
+
+
+            return cmd1;
+        }
+
+

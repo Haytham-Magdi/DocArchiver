@@ -1,0 +1,108 @@
+﻿
+public static void SetAssociation(
+	string Extension, string KeyName, string OpenWith, string FileDescription)     
+	
+	{     
+		RegistryKey BaseKey;     
+		RegistryKey OpenMethod;     
+		RegistryKey Shell;     
+		RegistryKey CurrentUser;      		
+		BaseKey = Registry.ClassesRoot.CreateSubKey(Extension);     
+		BaseKey.SetValue("", KeyName);      
+		OpenMethod = Registry.ClassesRoot.CreateSubKey(KeyName);     
+		OpenMethod.SetValue("", FileDescription);     
+		OpenMethod.CreateSubKey("DefaultIcon").SetValue("", "\"" + OpenWith + "\",0");     
+		Shell = OpenMethod.CreateSubKey("Shell");     
+		Shell.CreateSubKey("edit").CreateSubKey(
+			"command").SetValue("", "\"" + OpenWith + "\"" + " \"%1\"");     
+		Shell.CreateSubKey("open").CreateSubKey("command").SetValue(
+			"", "\"" + OpenWith + "\"" + " \"%1\"");     
+		BaseKey.Close();     
+		OpenMethod.Close();     
+		Shell.Close();      
+
+		CurrentUser = Registry.CurrentUser.CreateSubKey(
+			@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ucs");     
+		
+		CurrentUser = CurrentUser.OpenSubKey(
+			"UserChoice", RegistryKeyPermissionCheck.ReadWriteSubTree, 
+			System.Security.AccessControl.RegistryRights.FullControl);    
+			
+		CurrentUser.SetValue("Progid", KeyName, RegistryValueKind.String);    
+		CurrentUser.Close(); 		
+	} 
+
+
+	SetAssociation(".ucs", "UCS_Editor_File", Application.ExecutablePath, "UCS File");
+
+	/////////////////////////////
+
+
+
+
+
+	public static void SetAssociation(string Extension, string KeyName, string OpenWith, string FileDescription)     {         // The stuff that was above here is basically the same          // Delete the key instead of trying to change it         CurrentUser = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FileExts\\.ucs", true);         CurrentUser.DeleteSubKey("UserChoice", false);         CurrentUser.Close();          // Tell explorer the file association has been changed         SHChangeNotify(0x08000000, 0x0000, IntPtr.Zero, IntPtr.Zero);     }      [DllImport("shell32.dll", CharSet = CharSet.Auto, SetLastError = true)] 
+
+	public static extern void SHChangeNotify(uint wEventId, uint uFlags, IntPtr dwItem1, IntPtr dwItem2); 
+
+
+
+
+	 
+1
+ 
+down vote 
+accepted  The answer was a lot simpler than I expected. Windows Explorer has its own override for the open with application, and I was trying to modify it in the last lines of code. If you just delete the Explorer override, then the file association will work.
+
+I also told explorer that I had changed a file association by calling the unmanaged function SHChangeNotify()
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////
+
+
+
+
+{
+
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  
+VALUES  		(1, 1373118, -7546985041082548207, -7674347961034466228, 2325464902705838129, 6294995962588136874); 
+
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4) 
+ VALUES  		(2, 1164980, 4711185034123444212, 8004844803683987067, -8209754454492756469, -2524913267529705766); 
+
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(3, 2849592, 3387295850063682785, 2637224793781408660, -5665522464563871176, 9119877823173527453); 
+
+
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(4, 7330392, -7141005831171655136, 8949478046982965785, -3674965334045210775, 3647203788888751605); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(5, 2770348, -2101807195121841080, -7020731545024300207, 4531200046705514176, 4302877242097988964); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(6, 446933, -1093696627176234640, 3765227537197444486, -6556650866945860307, 4037798693019925035); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(7, 3034123, -4857947814949853585, -2183688663330210234, -57017061106517731, -1915705349404426662); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(8, 946999, -6158262929776521350, 2890939142957909757, 4420007382303125124, 1567679415641411205); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(9, 225794, 4295235606433464092, 374970374082458189, -6219698709930341211, 2746548032789199108); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(11, 72516, 7676591622359880356, 6302471244998486886, -1154026627875951654, -6672205900058181585); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(12, 182650, 484704086286194803, 1175113126896067862, 5355902390956202656, 5996316293796817261); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(13, 489377, -1257052207487941461, -4577238041845143656, 140134433024180910, -7828234552984944704); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(15, 1601851, 8533105181561908621, -425041177186924922, -4877189025444338661, 7804918361621241593); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(16, 2554901, 4928116472505282091, 562683377643472695, -6983879437623819285, -7236356051219361598); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(17, 1762953, -8582948197362570589, 642676228748797228, 384011759820688167, -6818367592275558275); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(18, 1796122, 2376295753737497796, 5980794747852928232, -5722174041084279242, 8611583563859521734); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(19, 920391, 8843483177049048429, -6342954019613292375, 8684185678243080465, -256465444583979815); 
+; INSERT INTO CoreFiles  		(CoreFile_ID, Size, UniqueNum_1, UniqueNum_2, UniqueNum_3, UniqueNum_4)  VALUES  		(20, 165151, -1633023400388048157, 6347719538139965863, -6390438252139493519, 2776224834355026532); 
+}
+
